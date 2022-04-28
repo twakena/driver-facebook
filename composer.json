@@ -18,13 +18,13 @@
     ],
     "require": {
         "php": ">=7.0",
-        "botman/botman": "~2.1|~3.0"
+        "botman/botman": "*"
     },
     "require-dev": {
-        "botman/studio-addons": "^1.0",
-        "phpunit/phpunit": "^5.0",
-        "illuminate/contracts": "^5.5",
-        "mockery/mockery": "^1.0",
+        "botman/studio-addons": "^1.0 || dev-l9-compatibility",
+        "phpunit/phpunit": "^5.0 || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/contracts": "^5.5 || ^7.0 || ^8.0",
+        "mockery/mockery": ">=1.0",
         "ext-curl": "*"
     },
     "autoload": {
